@@ -29,8 +29,3 @@ class LogisticRegression:
         y_predicted = 1/(1+np.exp(-z))
         y_predicted_cls = [1 if i > 0.5 else 0 for i in y_predicted]
         return np.array(y_predicted_cls)
-    
-    def predictedline(self,x):
-        z = np.dot(x, self.weights) + self.bias
-        y_predicted = 1/(1+np.exp(-(z)))
-        return y_predicted
