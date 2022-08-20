@@ -4,4 +4,4 @@ A 'Logistic Regression' based model made using SKLearn's version of breast cance
 
 The data is randomly split into 20% testing and 80% training set.
 
-The model achieves an accuracy of ~92.98%
+The model achieves an accuracy of ~92.98% on the test set and ~91.87% on training set.
